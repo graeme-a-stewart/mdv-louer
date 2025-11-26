@@ -1,0 +1,62 @@
+disabled = false
+languageCode = 'en-US'
+languageName = 'English'
+title = 'Maison de Village' # This will go in the Header as well
+copyright = """Built with [Hugo](https://gohugo.io/) based on the *Magnolia* theme by [Ludovico Caluori](https://github.com/ololiuhqui) - thank you! \n
+ [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄"""
+contentDir = "content/en"
+
+
+# Change single params to "false" to remove from rendering
+[params]
+  subtitle = "Thoiry, Pays de Gex" # This goes in the header and in the site title
+  # PAGES
+  [params.homepage]
+    # Notice that SEO meta tags (what appears in google search results) can be set
+    # in individual pages frontmatters `/content/<page>`
+    ###
+    #preTitle = 'A beautiful home in Thoiry'
+    title = "Maison de Village"
+    # You can use some markdown safely here as long as you don't include line breaks
+    intro= """
+  ## A beautiful home to fall in love with ❤️
+
+We are selling our much-loved home in Thoiry as we move to the next adventure in
+our lives.
+
+This wonderfully restored *maison de village* in Fenières, Thoiry, Pay de Gex, was
+originally built in 1835. Thoroughly renovated, it offers spacious family
+accommodation, with three bedrooms, two bathrooms, an additional toilet, and a large open-plan
+kitchen/dining-room/living-room for sociable living. A mezzanine and balcony
+complement the living spaces of 149m<sup>2</sup> in the house. The house is open on three sides,
+filled with bright natural light during the day.
+
+A 125m<sup>2</sup> garden space opposite the house is perfect for *al-fresco* dining and
+enjoying fine weather. There is a carport, a large garden shed and space to
+store firewood and other garden tools.
+"""
+
+[params.footer]
+  [params.footer.navigate]
+  heading = "Navigate"
+  [params.footer.contacts]
+  enabled = true # enables/disables the whole contacts section in footer
+  heading = "Contact"
+  name = "Graeme & Fiona"
+  mail = "maisondevillagethoiry@proton.me"
+  phone = "+33 6 01 64 52 77"
+
+[params.notfound]
+  title = "404, page not found" # text for 404 page
+
+[params.single] # for posts pages (visible only if posts are rendered)
+  similarContent= "Similar Content"
+  toc= "Table of Contents"
+  more="Read more"
+
+[menus]
+# PageRef should refer to the "translationKey" in `/content/<page>` frontmatter, names can be changed freely
+  [[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1

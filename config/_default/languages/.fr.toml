@@ -1,0 +1,60 @@
+disabled = false
+languageCode = 'fr-FR'
+languageName = 'Français'
+title = 'Maison de Village' # This will go in the Header as well
+copyright = """Construit avec [Hugo](https://gohugo.io/) basé sur le thème *Magnolia* de [Ludovico Caluori](https://github.com/ololiuhqui) - merci ! \n
+ [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄"""
+contentDir = "content/fr"
+
+
+# Change single params to "false" to remove from rendering
+[params]
+  subtitle = "Thoiry, Pays de Gex" # This goes in the header and in the site title
+  # PAGES
+  [params.homepage]
+    # Notice that SEO meta tags (what appears in google search results) can be set
+    # in individual pages frontmatters `/content/<page>`
+    ###
+    #preTitle = 'A beautiful home in Thoiry'
+    title = "Maison de Village"
+    # You can use some markdown safely here as long as you don't include line breaks
+    intro= """
+  ## Une belle maison à aimer ❤️
+
+Nous vendons notre maison bien-aimée à Thoiry pour passer à la prochaine aventure de nos vies.
+
+Cette *maison de village* merveilleusement restaurée à Fenières, Thoiry, Pays de Gex, a été
+construite à l'origine en 1835. Entièrement rénovée, elle offre un spacieux logement familial,
+avec trois chambres, deux salles de bains et une toilette, et une grande cuisine/salle à manger/salon ouverte
+pour une vie sociable. Une mezzanine et un balcon complètent les espaces de vie de 149m<sup>2</sup> dans la maison.
+La maison est ouverte sur trois côtés, est baignée de lumière naturelle pendant la journée.
+
+Un jardin de 125m<sup>2</sup> en face de la maison est parfait pour les repas en plein air et
+pour profiter du beau temps. Il y a un abri de voiture, un grand abri de jardin et un espace pour
+stocker du bois de chauffage et d'autres outils de jardin.
+"""
+
+[params.footer]
+  [params.footer.navigate]
+  heading = "Navigate"
+  [params.footer.contacts]
+  enabled = true # enables/disables the whole contacts section in footer
+  heading = "Contact"
+  name = "Graeme & Fiona"
+  mail = "maisondevillagethoiry@proton.me"
+  phone = "+33 6 01 64 52 77"
+
+[params.notfound]
+  title = "404, page non trouvée" # text for 404 page
+
+[params.single] # for posts pages (visible only if posts are rendered)
+  similarContent= "Contenu similaire"
+  toc= "Table des matières"
+  more="Plus"
+
+[menus]
+# PageRef should refer to the "translationKey" in `/content/<page>` frontmatter, names can be changed freely
+  [[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
