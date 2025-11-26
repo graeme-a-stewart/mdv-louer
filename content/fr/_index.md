@@ -87,12 +87,18 @@ draft: false
 
 &nbsp;
 
+### Ameublement
+
+La maison est proposée *non meublée*. La plupart des photos montrent l'ancien
+ameublement de la maison, afin que vous puissiez vous faire une meilleure idée
+de ce à quoi ressemble la maison une fois habitée.
+
 ### Diagnostic de Performance Énergétique
 
 La maison a une excellente note énergétique de **C**, ainsi qu'une empreinte CO<sup>2</sup>
 exceptionnelle de **A**, grâce au système moderne de chauffage par pompe à chaleur, qui offre également
 la climatisation dans la maison.
 
-### Prix
+### Prix de Louer
 
-€525 000
+2300€ par mois (charges non comprises)

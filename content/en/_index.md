@@ -1,6 +1,6 @@
 ---
 title: ''
-description: 'A beautiful maison de village'
+description: 'A beautiful maison de village for rent'
 draft: false
 ---
 
@@ -87,12 +87,18 @@ draft: false
 
 &nbsp;
 
+### Furnishings
+
+The house is offered *unfurnished*. Most of the photographs show the previous
+furnished state of the house, so that you have a better idea of what the house
+is like to live in.
+
 ### Energy and CO<sup>2</sup>
 
 The house has an excellent energy rating of **C**, as well as an outstanding CO<sup>2</sup>
 footprint of **A**, thanks to the modern heat pump heating system, which also
 offers air conditioning in the house.
 
-### Selling Price
+### Rental Price
 
-€525 000
+€2300 per month (utilities not included)

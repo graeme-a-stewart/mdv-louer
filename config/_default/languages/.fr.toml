@@ -16,12 +16,12 @@ contentDir = "content/fr"
     # in individual pages frontmatters `/content/<page>`
     ###
     #preTitle = 'A beautiful home in Thoiry'
-    title = "Maison de Village"
+    title = "Maison de village à louer"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
   ## Une belle maison à aimer ❤️
 
-Nous vendons notre maison bien-aimée à Thoiry pour passer à la prochaine aventure de nos vies.
+Une charmante maison familiale à Thoiry est proposée à la location.
 
 Cette *maison de village* merveilleusement restaurée à Fenières, Thoiry, Pays de Gex, a été
 construite à l'origine en 1835. Entièrement rénovée, elle offre un spacieux logement familial,
@@ -40,9 +40,9 @@ stocker du bois de chauffage et d'autres outils de jardin.
   [params.footer.contacts]
   enabled = true # enables/disables the whole contacts section in footer
   heading = "Contact"
-  name = "Graeme & Fiona"
+  name = "Jane Kwiatkowska-del Pozo"
   mail = "maisondevillagethoiry@proton.me"
-  phone = "+33 6 01 64 52 77"
+  phone = "+33 7 86 58 28 82"
 
 [params.notfound]
   title = "404, page non trouvée" # text for 404 page
