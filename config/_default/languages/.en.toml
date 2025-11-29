@@ -42,7 +42,7 @@ store firewood and other garden tools.
   enabled = true # enables/disables the whole contacts section in footer
   heading = "Contact"
   name = "Jane Kwiatkowska-del Pozo"
-  mail = "maisondevillagethoiry@proton.me"
+  # mail = "maisondevillagethoiry@proton.me"
   phone = "+33 7 86 58 28 82"
 
 [params.notfound]
